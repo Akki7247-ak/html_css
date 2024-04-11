@@ -1,0 +1,25 @@
+/* .parent{
+    position:relative;
+height: 400vh;
+    background-color: rebeccapurple;
+} */
+body{
+    background-color: aqua;
+    height: -300vh;
+}
+.child-one{
+
+position: -webkit-sticky;
+background-color: red;
+
+}
+.child-two{
+position: sticky;
+    background-color: rosybrown;
+    top: 0vh;
+    left: 0vh;
+}
+.child-three{
+    position: fixed;
+    background-color: forestgreen;
+}
